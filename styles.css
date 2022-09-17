@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.links {
+    display: flex;
+    list-style-type: none;
+}
+
+.links li {
+    padding: 0 8px;
+}
+
+.hero {
+    display: flex;
+}
