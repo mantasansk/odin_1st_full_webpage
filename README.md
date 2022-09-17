@@ -1,0 +1,1 @@
+Creating first full webpage as a project in The Odin Project course.
