@@ -116,3 +116,32 @@ button {
     border: 2px solid #3882F6;
     border-radius: 16px;
 }
+
+.quote-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    height: 400px;
+}
+
+.quote-block div {
+    display: flex;
+    flex-direction: column;
+    width: 950px;
+}
+
+#quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1F2937;
+    margin: 0px;
+}
+
+#quote-author {
+    font-weight: bold;
+    align-self: flex-end;
+    margin-right: 30px;
+}
