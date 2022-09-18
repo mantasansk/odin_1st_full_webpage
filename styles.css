@@ -82,3 +82,37 @@ button {
     padding: 6px 24px;
     font-weight: bold;
 }
+
+.info-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F9FAF8;
+    height: 500px;
+}
+
+.info-block ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.info-block>p {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.info-block li {
+    width: 180px;
+    margin: 30px;
+    text-align: center;
+}
+
+.info-block .info-image {
+    width: 180px;
+    height: 180px;
+    border: 2px solid #3882F6;
+    border-radius: 16px;
+}
